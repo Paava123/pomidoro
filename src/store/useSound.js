@@ -5,7 +5,7 @@ export const useSoundStore = defineStore('sound', ()=> {
   
 
 let click = new Audio("../public/sound/clickSound.wav");
-let bell = new Audio("chime.mp3");
+let bell = new Audio("sound/chime.mp3");
 
 function PlayClickSound(){
     click.cloneNode().play();
