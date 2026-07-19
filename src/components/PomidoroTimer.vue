@@ -4,9 +4,9 @@
       class="col-span-2 bg-linear-to-br from-slate-900 via-slate-800 justify-between to-slate-800/80 flex flex-col border-3 rounded-4xl border-slate-900 p-5 gap-5 font-semibold text-4xl text-slate-400"
     >
       <div class="flex mx-auto p-3 items-center gap-5">
-        <MoveLeft />
+       
         <p>Focus</p>
-        <MoveRight />
+       
       </div>
       <Timer class="min-h-1"></Timer>
       <div class="flex justify-center gap-8 mt-6">
