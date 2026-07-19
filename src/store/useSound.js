@@ -4,8 +4,8 @@ import { defineStore } from 'pinia'
 export const useSoundStore = defineStore('sound', ()=> {
   
 
-let click = new Audio("../public/sound/clickSound.wav");
-let bell = new Audio("../public/sound/chime.mp3");
+let click = new Audio("/sound/clickSound.wav");
+let bell = new Audio("/sound/chime.mp3");
 
 function PlayClickSound(){
     click.cloneNode().play();
